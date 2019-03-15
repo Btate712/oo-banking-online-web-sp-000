@@ -24,7 +24,7 @@ class Transfer
         @status = "complete"
       end
     else
-      return_value = "Transaction rejected.  Please check your account balance."
+      return_value = "Transaction rejected. Please check your account balance."
       @status = "rejected"
     end
     return_value
